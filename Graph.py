@@ -57,7 +57,8 @@ class Graph:
                 temp=temp.next
             print()
         
-        print("\n---------------------------------------------------\n\nAdjacency Matrix for first 50 elements: ")
+        print("\n---------------------------------------------------\n\n)
+        print("Adjacency Matrix for first 50 elements: ")
         print(end="   ")
         for i in range(50): print(i,end=" ")
         print("\n",0,"",sep="",end=" ")
