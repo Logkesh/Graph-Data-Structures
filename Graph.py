@@ -82,9 +82,9 @@ class Graph:
         
 
 
-def buildgraph():
+def buildgraph(file):
     text = ""
-    with open("Colt.gml") as f:
+    with open(file) as f:
         txt = f.readlines()
     for i in txt:
         text += " " + i.strip()
@@ -132,7 +132,7 @@ def buildgraph():
     G.printGraph()
 
 def main():
-    buildgraph()
+    buildgraph("Colt.gml")
 
 if __name__ == "__main__":
     main()
